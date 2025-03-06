@@ -17,19 +17,19 @@ const Banner = () => {
           className="font-bold lg:text-7xl md:text-5xl text-4xl font-sans
       text-left w-full"
         >
-          Uncover the <br /> <span className="text-blue-500">AI</span> Travel{" "}
+          Descubre el <br /> <span className="text-blue-500">AI</span> Travel{" "}
           <span className="text-blue-500">Plan</span>
         </h1>
 
         <div className="mt-5 lg:mt-10 rounded-md w-full text-left lg:text-lg md:text-md text-base">
           <div className="flex justify-start  items-center">
             <Lightbulb className="mr-1 text-yellow-600" />
-            <span className="text-center ">Imagine telling your travel planner,</span>
+            <span className="text-center ">Imagínate contárselo a tu planificador de viajes,</span>
           </div>
           <div className="p-2">
             <p className="text-blue-500 font-bold tracking-wide lg:text-md md:text-base text-sm">
-              'Weekend escape to a vibrant city, <br className="lg:hidden" />
-              with mid-range budget in summer.'
+              'Escapada de fin de semana a una ciudad diferente, <br className="lg:hidden" />
+              con presupuesto medio en verano.'
             </p>
             <p
               className="mt-5 mb-5 
@@ -40,9 +40,7 @@ const Banner = () => {
                         md:max-w-xl 
                         text-left"
             >
-              Our AI not only understands but crafts a personalized adventure. Discover local
-              secrets, savor culinary delights, and explore iconic landmarks with an itinerary
-              designed just for you.
+              Nuestra IA no solo comprende, sino que también crea una aventura personalizada. Descubra secretos locales, saboree delicias culinarias y explore lugares emblemáticos con un itinerario diseñado solo para usted.
             </p>
           </div>
         </div>
