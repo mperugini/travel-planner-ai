@@ -11,10 +11,18 @@ import { RouteMatcher } from 'next/dist/server/future/route-matchers/route-match
 
 
 
-const isProtectedRoute = createRouteMatcher(['!/plans/:planId/community-plan(.*)', '!/community-plans'])
+const isProtectedRoute = createRouteMatcher(['/plans/:planId/community-plan(.*)', '/community-plans'])
+
+/*
+export default clerkMiddleware((auth, req) => {
+  if (await!auth().userId && !isProtectedRoute(req)) {
+    return auth().redirectToSignIn();
+  }
+});
+*/
 
 export default clerkMiddleware(async (auth, req) => {
-  if (isProtectedRoute(req)) await auth.protect()
+  if (!isProtectedRoute(req)) await auth.protect()
 })
 
 export const config = {
