@@ -1,4 +1,6 @@
-import dynamic from "next/dynamic";
+// Agrega "use client" al inicio del archivo
+"use client";
+
 import { useToast } from "@/components/ui/use-toast";
 import { api } from "@/convex/_generated/api";
 import { useUser } from "@clerk/nextjs";
@@ -10,7 +12,6 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import joinNow from "@/public/join-now.svg";
 
-// Forzar el CSR (Client-Side Rendering) para esta página
 const Join = () => {
   const { isLoaded, isSignedIn, user } = useUser();
   const router = useRouter();
@@ -80,5 +81,4 @@ const Join = () => {
   );
 };
 
-// Forzar el Client-Side Rendering (CSR) para esta página
-export default dynamic(() => Promise.resolve(Join), { ssr: false });
+export default Join;
