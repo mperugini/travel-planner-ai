@@ -1,4 +1,4 @@
-/*
+
 "use client";
 import { useToast } from "@/components/ui/use-toast";
 
@@ -17,7 +17,8 @@ const Join = () => {
 };
 
 export default Join;
-*/
+/*
+
 
 "use client";
 
@@ -101,3 +102,4 @@ const Join = () => {
 };
 
 export default Join;
+*/
