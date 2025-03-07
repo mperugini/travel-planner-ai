@@ -1,9 +1,9 @@
 import type {Metadata} from "next";
 import Header from "@/components/home/Header";
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.travelplannerai.online"),
+  metadataBase: new URL("https://www.atrapa-viajes.com"),
   title: {
-    default: "Travel Planner AI - Your Smart Travel Planner",
+    default: "Travel Planner AI - Tu Travel Planner inteligente",
     template: "%s | Travel Planner AI - Your Smart Travel Planner",
   },
   description:
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: "Travel Planner AI - Your Smart Travel Planner",
     description:
       "Travel Planner AI provides intelligent travel suggestions, personalized itineraries, and seamless trip planning. Plan your perfect trip with ease.",
-    url: "https://www.travelplannerai.online",
+    url: "https://www.atrapa-viajes.com",
     type: "website",
     siteName: "TravelPlannerAI",
     images: [
