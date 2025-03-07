@@ -34,9 +34,9 @@ import {
 import {ReactNode} from "react";
 
 export const navlinks = [
-  {text: "How it works", id: "how-it-works"},
+  {text: "Como Funciona", id: "how-it-works"},
   {text: "Community Plans", id: "public-plans"},
-  {text: "Pricing", id: "pricing"},
+  {text: "Precio", id: "pricing"},
 ];
 
 export const features = [
@@ -143,11 +143,11 @@ export const planSections: {
 export const colors = ["#ef4444", "#14b8a6", "#f59e0b", "#06b6d4", "#a855f7", "#ec4899"];
 
 export const expenseCategories = [
-  {key: "food", icon: <Pizza className="h-4 w-4" />, label: "Food"},
-  {key: "commute", icon: <Bus className="h-4 w-4" />, label: "Commute"},
+  {key: "food", icon: <Pizza className="h-4 w-4" />, label: "Comida"},
+  {key: "commute", icon: <Bus className="h-4 w-4" />, label: "Transporte"},
   {key: "shopping", icon: <ShoppingCart className="h-4 w-4" />, label: "Shopping"},
-  {key: "gifts", icon: <Gift className="h-4 w-4" />, label: "Gifts"},
-  {key: "accomodations", icon: <Hotel className="h-4 w-4" />, label: "Accomodation"},
+  {key: "gifts", icon: <Gift className="h-4 w-4" />, label: "Regalos"},
+  {key: "accomodations", icon: <Hotel className="h-4 w-4" />, label: "Alojamiento"},
   {key: "others", icon: <ShieldQuestion className="h-4 w-4" />, label: "Others"},
 ];
 
@@ -363,18 +363,18 @@ export const FEEDBACK_LABELS = [
 ];
 
 export const ACTIVITY_PREFERENCES = [
-  {id: "sightseeing", displayName: "Sightseeing", icon: MapPinned},
-  {id: "adventure", displayName: "Adventure", icon: Sailboat},
-  {id: "culturalexperiences", displayName: "Cultural Experiences", icon: Palette},
+  {id: "sightseeing", displayName: "Paseo", icon: MapPinned},
+  {id: "adventure", displayName: "Aventura", icon: Sailboat},
+  {id: "culturalexperiences", displayName: "Experiencias Culturales", icon: Palette},
   {id: "historical", displayName: "Historical", icon: Castle},
-  {id: "relaxationwellness", displayName: "Relaxation", icon: PersonStanding},
+  {id: "relaxationwellness", displayName: "Relajación", icon: PersonStanding},
   {id: "shopping", displayName: "Shopping", icon: ShoppingBag},
-  {id: "nightlife", displayName: "Nightlife", icon: MoonStar},
+  {id: "nightlife", displayName: "Vida Nocturna", icon: MoonStar},
 ];
 
 export const COMPANION_PREFERENCES = [
   {id: "solo", displayName: "Solo", icon: MapPinned},
-  {id: "couple", displayName: "Couple", icon: Heart},
-  {id: "family", displayName: "Family", icon: Users2},
-  {id: "group", displayName: "Group", icon: Contact},
+  {id: "couple", displayName: "En Pareja", icon: Heart},
+  {id: "family", displayName: "Familia", icon: Users2},
+  {id: "group", displayName: "En Grupo", icon: Contact},
 ];
