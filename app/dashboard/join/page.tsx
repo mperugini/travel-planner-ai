@@ -1,4 +1,4 @@
-// Agrega "use client" al inicio del archivo
+/*
 "use client";
 
 import { useToast } from "@/components/ui/use-toast";
@@ -23,7 +23,6 @@ const Join = () => {
 
   const currentUser = useQuery(api.users.currentUser);
 
-  // Obtener el token desde los search params
   useEffect(() => {
     const urlToken = searchParams.get("token");
     setToken(urlToken);
@@ -82,3 +81,4 @@ const Join = () => {
 };
 
 export default Join;
+*/
