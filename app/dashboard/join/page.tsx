@@ -1,3 +1,22 @@
+"use client";
+import { useToast } from "@/components/ui/use-toast";
+
+const Join = () => {
+
+  return (
+    <div className="w-full h-full flex flex-1 justify-center items-center">
+      <div className="flex flex-col justify-center items-center gap-5 bg-muted rounded-full p-10 shadow-">
+     
+        <h2 className="text-foreground animate-pulse font-bold text-lg">
+          Joining the Plan...
+        </h2>
+      </div>
+    </div>
+  );
+};
+
+export default Join;
+
 /*
 "use client";
 
