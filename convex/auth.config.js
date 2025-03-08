@@ -1,7 +1,7 @@
 export default {
   providers: [
     {
-      domain: process.env.CUSTOM_DOMAIN,
+      domain: "https://clerk.atrapa-viajes.com", //process.env.CUSTOM_DOMAIN,
       applicationID: "convex",
     },
   ],
